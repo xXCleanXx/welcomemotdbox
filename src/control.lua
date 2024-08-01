@@ -1,0 +1,1 @@
+WelcomeMOTDBoxx = require('scripts/WelcomeMOTDBox/main')
