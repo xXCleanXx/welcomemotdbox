@@ -1,4 +1,4 @@
----Initializes informatron.
+---Initializes
 function WelcomeMOTDBox.on_init()
     -- In case mod is being added mid-game
     for _, player in pairs(game.players) do
@@ -43,7 +43,7 @@ function WelcomeMOTDBox.on_player_joined(event)
 end
 script.on_event(defines.events.on_player_joined_game, WelcomeMOTDBox.on_player_joined)
 
----Handles the keyboard shortcut for Informatron being used.
+---Handles the keyboard shortcut
 ---@param event EventData.CustomInputEvent Event data
 function WelcomeMOTDBox.on_keyboard_shortcut(event)
   WelcomeMOTDBox.Toggle(game.get_player(event.player_index) --[[@as LuaPlayer]])

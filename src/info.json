@@ -1,6 +1,6 @@
 {
   "name": "welcomemotdbox",
-  "version": "1.0.437",
+  "version": "1.0.438",
   "title": "Welcome MOTD Box",
   "author": "SpReeD, xXCleanXx",
   "dependencies": [
@@ -14,6 +14,11 @@
       { 
         "root": ".build"
       }
-    ]
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh",
+      "postpublish": "sh ./build-scripts/postpublish.sh"
+    }
   }
 }
