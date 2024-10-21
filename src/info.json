@@ -1,13 +1,13 @@
 {
   "name": "welcomemotdbox",
-  "version": "1.0.438",
+  "version": "2.0.0",
   "title": "Welcome MOTD Box",
   "author": "SpReeD, xXCleanXx",
   "dependencies": [
-    "base >= 1.1.0"
+    "base >= 2.0.0"
 	],
   "description": "The only Server-MOTD you really need!",
-	"factorio_version": "1.1",
+	"factorio_version": "2.0",
   "package": {
     "ignore": ["**"],
     "extra": [

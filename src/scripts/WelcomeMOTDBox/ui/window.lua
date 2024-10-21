@@ -26,7 +26,7 @@ local function RenderTitlebar(parent)
   }
   titlebar.add{ -- Close button
     type = "sprite-button",
-    sprite = "utility/close_white",
+    sprite = "utility/close",
     hovered_sprite = "utility/close_black",
     clicked_sprite = "utility/close_black",
     tags = {root=WelcomeMOTDBox.name_root, action=WelcomeMOTDBox.action_close_button},
@@ -74,7 +74,7 @@ local function RenderGreetingString(parent, player)
   if settings.global["welcomemotdbox-show-greeting-string"].value then
     parent.add{
       type = "label",
-      style = "heading_1_label",
+      style = "frame_title",
       caption = {"motd.title", player.name}
     }
   end

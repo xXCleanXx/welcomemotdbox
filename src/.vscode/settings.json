@@ -2,15 +2,16 @@
     "factorio.versions": [
         {
             "name": "1.1.0",
+            "factorioPath": "h:\\SteamLibrary\\steamapps\\common\\Factorio\\bin\\x64\\factorio.exe"
+        },
+        {
+            "name": "thegame",
             "factorioPath": "h:\\SteamLibrary\\steamapps\\common\\Factorio\\bin\\x64\\factorio.exe",
             "active": true
         }
     ],
-    "Lua.workspace.library": [
-        "h:\\SteamLibrary\\steamapps\\common\\Factorio\\data"
-    ],
     "Lua.workspace.userThirdParty": [
-        "c:\\Users\\SpReeD\\AppData\\Roaming\\Code\\User\\workspaceStorage\\c6cfb95e4ce6616c2d71ab81a15c098f\\justarandomgeek.factoriomod-debug\\sumneko-3rd"
+        "c:\\Users\\SpReeD\\AppData\\Roaming\\Code\\User\\workspaceStorage\\101aeabb40c4428be15f3fa072cf29a4\\justarandomgeek.factoriomod-debug\\sumneko-3rd"
     ],
     "Lua.workspace.checkThirdParty": "ApplyInMemory"
 }
